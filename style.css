@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+background-image: url(flover.jpeg);
+background-repeat: no-repeat;
+backdrop-filter: cover;
+background-size: 100vw 100vw;}
+body, input, button, span, h1 {font-family: roboto;
+
+
+}
+
+.grid-container {
+background-image: url(flover.jpeg);
+background-repeat: no-repeat;
+margin:20vw auto auto auto;
+border: 1px solid black;
+border-radius: 10px;
+box-shadow: 5px 5px 5px black;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 400px;
+height: auto;}
+
+.grid-item {
+text-align: center;
+padding: 20px;
+width: 400px;
+height: auto;
+ 
+}
+#grid-item{
+margin-left:40px;}
+
+.grid-item input{
+width: 360px;
+border-radius: 5px;
+padding: 8px;
+
+}
+.grid-item button {
+width: 360px;
+height: 40px;
+padding: 8px;
+color: aliceblue;
+font-weight: bold;
+background-color: rgb(172, 131, 210);
+border: 1px solid black;
+box-shadow: 5px 5px 5px black;
+border-radius: 5px;
+}
+.grid-item button:hover{
+background-color: rgb(237, 97, 184, 0.5);}
+.grid-item h1{
+color:cornsilk;
+text-shadow: 2px 2px 2px black;}
+span{
+font-weight: bold;}
+
+@media (max-width: 800px;){
+.grid-item .grid-container {
+width: 60vw;}   
+@media (max-width: 600px;){
+.grid-item .grid-container {
+width: 0vw;}   
+}
